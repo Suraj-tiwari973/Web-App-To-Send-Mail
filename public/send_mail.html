@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Send Mail</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Web app for sending the mail</h1>
+        <div class="contact">
+            <form action="send" method="get">
+                <input type="email" name="To" class="email" placeholder="To:"> <br>
+                <input type="email" name="From" class="email" placeholder="From:"><br>
+                <input type="text" name="subject" id="subject" placeholder="Subject:"><br>
+                <textarea name="content" id="content" cols="39" rows="10" placeholder="Compose Email"></textarea><br>
+                <input type="submit" name="Send" value="Send" id="btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
