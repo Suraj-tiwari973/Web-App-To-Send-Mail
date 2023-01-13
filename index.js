@@ -14,7 +14,7 @@ app.use(express.static(public_path));
 console.log(public_path);
 
 app.get('/',(req,res)=>{
-    res.sendFile(`${public_path}/send_mail.html`);
+    res.sendFile(`${public_path}/index.html`);
 })
 
 app.get('/send',(req,res)=>{
